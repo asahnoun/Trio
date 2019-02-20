@@ -39,6 +39,7 @@ void sortDescending(int &first, int &second, int &third)
     swap(second,third);
   }
 }
+
 /***************************brief************************
 function: swap
 Attributes: int , int
@@ -46,7 +47,7 @@ swap two varaibles
 */
 void swap(int &first, int &second)
 {
-  int temp = first;
-  first = second;
-  second = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
