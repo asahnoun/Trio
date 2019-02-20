@@ -45,7 +45,7 @@ function: swap
 Attributes: int , int
 swap two varaibles
 */
-void swap(int &first, int &second)
+void swap(int &a, int &b)
 {
   int temp = a;
   a = b;
