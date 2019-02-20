@@ -3,8 +3,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void sortDescending(int&,int&,int&);
-void swap(int&,int&);
+void sortDescending(int&,int&,int&); // sort 3 input from greatest to least
+void swap(int&,int&); // swap variables
 
 int main()
 {
@@ -19,6 +19,8 @@ int main()
   return 0;
 }
 /***************************brief************************
+function: sortDescending
+Attributes: int , int ,int
 sort numbers by descending order if first is less than two we swap, if first is less than two we swap them 
 if second is less than three we swap
 */
@@ -38,6 +40,8 @@ void sortDescending(int &first, int &second, int &third)
   }
 }
 /***************************brief************************
+function: swap
+Attributes: int , int
 swap two varaibles
 */
 void swap(int &first, int &second)
