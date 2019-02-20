@@ -3,7 +3,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void sortDescending(int,int,int);
+void sortDescending(int&,int&,int&);
 void swap(int&,int&);
 
 int main()
@@ -18,8 +18,11 @@ int main()
   cout<<numA<<","<<numB<<","<<numC<<endl;
   return 0;
 }
-
-void sortDescending(int first, int second, int third)
+/***************************brief************************
+sort numbers by descending order if first is less than two we swap, if first is less than two we swap them 
+if second is less than three we swap
+*/
+void sortDescending(int &first, int &second, int &third)
 {
   if( first < third )
   {
@@ -34,7 +37,9 @@ void sortDescending(int first, int second, int third)
     swap(second,third);
   }
 }
-
+/***************************brief************************
+swap two varaibles
+*/
 void swap(int &first, int &second)
 {
   int temp = first;
